@@ -1,31 +1,70 @@
-.titleBlock {
-    color: white;
-    font-family: Georgia;
-    font-size: 250%;
-    background-color: mediumspringgreen;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-  
-nav li {
-    float: left;
-}
-  
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
+    list-style: none;
     text-decoration: none;
 }
-  
-nav li a:hover {
-    background-color: #111111;
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    height: 80px;
+    width: 80%;
+    margin: 10px;
+    background-color: #bcd890;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header h1 {
+    color: white;
+    margin-left: -80px;
+    font-family: bebas_neuebold;
+    font-size: 48px;
+}
+
+.header h1 span {
+    font-family: bebas_neuelight;
+}
+
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    font-family: bebas_neueregular;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: white solid 1px;
+}
+
+.nav li:last-child a {
+    border-right: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.lowerHeader {
+    padding: 20px;
+}
+
+.lowerHeader h1 {
+    font-family: bebas_neuebook;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+.main {
+    width: 80%;
+    margin: 20px;
 }
