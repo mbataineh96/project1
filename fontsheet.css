@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'bebas_neuebold';
-    src: url('bebasneue-bold-webfont.woff2') format('woff2'),
-         url('bebasneue-bold-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-bold-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'bebas_neuebook';
-    src: url('bebasneue-book-webfont.woff2') format('woff2'),
-         url('bebasneue-book-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-book-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'bebas_neuelight';
-    src: url('bebasneue-light-webfont.woff2') format('woff2'),
-         url('bebasneue-light-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-light-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
-         url('bebasneue-regular-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'bebas_neuethin';
-    src: url('bebasneue-thin-webfont.woff2') format('woff2'),
-         url('bebasneue-thin-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
