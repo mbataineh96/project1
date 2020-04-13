@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Global style*/
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    height: 80px;
+    width: 1024px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #bcd890;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header h1 {
+    color: white;
+    font-family: bebas_neuebold;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+.header h1 span {
+    font-family: bebas_neuelight;
+}
+
+#menuButton {
+    display: none;
+    padding: 10px;
+    margin-right: 20px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#menuButton:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+#nav a {
+    color: white;
+    font-family: bebas_neueregular;
+    font-size: 14px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: white solid 1px;
+}
+
+#nav li:last-child a {
+    border: none;
+}
+
+#nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+#nav a:active {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.lowerHeader {
+    width: 1024px;
+    margin-left: 20px;
+    border-bottom: 2px solid darkslategray;
+}
+
+.lowerHeader h1 {
+    font-family: bebas_neuebook;
+    color: darkslategray;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1044px) {
+    .header {
+        width: 95%;
+    }
+
+    .lowerHeader {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .header {
+        width: 810px;
+    }
+
+    .lowerHeader {
+        width: 810px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .header {
+        width: 700px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        overflow: visible;
+    }
+
+    #nav {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    #nav a {
+        font-size: 12px;
+    }
+
+    .lowerHeader {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .header {
+        width: 95%;
+    }
+
+    .lowerHeader {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .lowerHeader {
+        padding-top: 100px;
+    }
+
+    #menuButton {
+        display: flex;
+    }
+
+    #nav.open {
+        display: flex;
+    }
+
+    #nav {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        right: 0;
+        top: 100%;
+        width: 80px;
+        height: 125px;
+        margin: 0px;
+        display: none;
+        background-color: #bcd890;
+        border: 1px solid white;
+    }
+
+    #nav a {
+        border-right: none;
+        border-bottom: 1px solid white;
+        padding: 0;
+    }
+}
+
+/****************************************************************/
+
+/*Home page style*/
+
+.main {
+    color: darkslategray;
+    width: 1024px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .mainImage1 {
+    margin-right: 15px;
+    width: 497px;
+    height: 331px;
+}
+
+.main .text1 {
+    width: 497px;
+    margin-left: 15px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.main .text1 span {
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 1044px) {
+    .main {
+        width: 95%;
+    }
+
+    .main .mainImage1 {
+        width: 400px;
+        height: 266.5px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .main {
+        width: 810px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .main {
+        width: 700px;
+        flex-direction: column-reverse;
+    }
+
+    .main .mainImage1 {
+        width: 600px;
+        height: 400px;
+        margin-right: 0px;
+    }
+
+    .main .text1 {
+        width: 600px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .main {
+        width: 95%;
+    }
+
+    .main .mainImage1 {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* IE 8 */
+    }
+
+    .main .text1 {
+        width: 100%;
+    }
+}
