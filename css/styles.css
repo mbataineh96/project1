@@ -134,17 +134,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 750px) {
-    .header {
-        width: 95%;
-    }
-
-    .lowerHeader {
-        width: 95%;
-    }
-}
-
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 768px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
@@ -159,6 +149,7 @@ body {
 
     .lowerHeader {
         padding-top: 100px;
+        width: 95%;
     }
 
     #menuButton {
@@ -242,32 +233,26 @@ body {
 
 @media only screen and (max-width: 830px) {
     .main {
-        width: 700px;
         flex-direction: column-reverse;
     }
 
-    .main .mainImage1 {
-        width: 600px;
-        height: 400px;
-        margin-right: 0px;
-    }
-
     .main .text1 {
-        width: 600px;
-        padding-bottom: 20px;
-        margin-left: 0px;
+        margin-left: 0;
+        margin-bottom: 20px;
     }
 }
 
-@media only screen and (max-width: 645px) {
+@media only screen and (max-width: 768px) {
     .main {
         width: 95%;
     }
 
     .main .mainImage1 {
         max-width: 100%;
+        width: 80%;
         height: auto;
-        width: auto\9; /* IE 8 */
+        align-self: flex-start;
+        margin: 0;
     }
 
     .main .text1 {
