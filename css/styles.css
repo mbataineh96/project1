@@ -228,6 +228,19 @@ body {
     font-weight: bold;
 }
 
+.main .resources {
+    font-size: 24px;
+}
+
+.main .resources a {
+    text-decoration: underline;
+}
+
+.main .resources dd {
+    max-width: 800px;
+    margin-left: 50px;
+}
+
 /*Media Queries*/
 
 @media only screen and (max-width: 1044px) {
